@@ -1,0 +1,7 @@
+version: "3"
+services:
+ image-host:
+  container_name: image-host
+  image: image-host:latest
+  ports:
+    - "8080:80"
